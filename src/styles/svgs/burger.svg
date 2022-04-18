@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="119.99991mm"
+   height="100.00009mm"
+   viewBox="0 0 119.99991 100.00009"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="burgerRound.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5287037"
+     inkscape:cx="403.28286"
+     inkscape:cy="210.3089"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-object-midpoints="true" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.23086,-81)">
+    <path
+       id="rect1054"
+       style="fill:#ffffff;stroke-width:0.999999"
+       d="M 0,0 A 37.795276,37.795276 0 0 0 -37.794922,37.794922 37.795276,37.795276 0 0 0 0,75.589844 H 377.95312 A 37.795276,37.795276 0 0 0 415.74805,37.794922 37.795276,37.795276 0 0 0 377.95312,0 Z"
+       transform="matrix(0.26458333,0,0,0.26458333,42.230766,81)" />
+    <path
+       id="rect1054-0"
+       style="fill:#ffffff;stroke-width:0.999999"
+       d="M 0,151.18164 A 37.795276,37.795276 0 0 0 -37.794922,188.97656 37.795276,37.795276 0 0 0 0,226.77148 h 377.95312 a 37.795276,37.795276 0 0 0 37.79493,-37.79492 37.795276,37.795276 0 0 0 -37.79493,-37.79492 z"
+       transform="matrix(0.26458333,0,0,0.26458333,42.230766,81)" />
+    <path
+       id="rect1054-1"
+       style="fill:#ffffff;stroke-width:0.999999"
+       d="m 0,302.36133 v 0.002 A 37.795276,37.795276 0 0 0 -37.794922,340.1582 37.795276,37.795276 0 0 0 0,377.95312 h 377.95312 a 37.795276,37.795276 0 0 0 37.79493,-37.79492 37.795276,37.795276 0 0 0 -37.79493,-37.79492 v -0.002 z"
+       transform="matrix(0.26458333,0,0,0.26458333,42.230766,81)" />
+  </g>
+</svg>

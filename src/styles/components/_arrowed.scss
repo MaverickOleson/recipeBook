@@ -1,0 +1,23 @@
+.leftArrow {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    clip-path: polygon(50% 0, 50% 20%, 100% 20%, 100% 80%, 50% 80%, 50% 100%, 0% 50%);
+    backdrop-filter: invert(100%);
+}
+
+.rightArrow {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    clip-path: polygon(0% 20%, 50% 20%, 50% 0%, 100% 50%, 50% 100%, 50% 80%, 0% 80%);
+    backdrop-filter: invert(100%);
+}

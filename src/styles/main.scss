@@ -1,0 +1,72 @@
+@import 'global/index';
+@import 'components/index';
+@import 'util/index';
+
+$pink: #FF80FF;
+
+body {
+    text-align: center;
+}
+
+#root {
+    padding-top: 25px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 1rem;
+}
+
+p {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+nav {
+    border: 0.75rem solid white;
+    background-color: $pink;
+    box-shadow: 0 0 10px black;
+
+    &:hover {
+        background: white;
+    }
+
+    a {
+
+        background: white;
+        color: $pink;
+        border-bottom: 2px solid $pink;
+
+        &:last-of-type {
+            border: none;
+        }
+
+        &:hover {
+            background: $pink;
+            color: white;
+        }
+    }
+}
+
+.home {
+    background: $pink;
+    color: white;
+}
+
+.about {
+    @include vert;
+    background: #FFFE99;
+    color: black;
+}
+
+.contact {
+    background: #66FF91;
+}
+
+.recipes {
+    background: white;
+}
+
+.book {
+    background: white;
+}

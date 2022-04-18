@@ -1,7 +1,46 @@
+import React from 'react';
+
 export default function Book({ pages }) {
-	return pages.map((page, index) => {
-		return <div>
-			asdf
-		</div>
-	});
+	var page = 0;
+	var pageSwitch = false;
+	function flipBook(e) {
+		if (!page) {
+			page++;
+			e.target.parentElement.classList.add('openBook');
+			e.target.addEventListener('animationend', animEnd);
+			function animEnd(ev) {
+				if (ev.animationName === 'halfTurnPage') {
+					e.target.style.zIndex = 0;
+					e.target.removeEventListener('animationend', animEnd);
+				}
+			}
+			return e.target.classList.add('turnPage');
+		}
+		if (page === 1) {
+			page++;
+			console.log(page)
+			if (pageSwitch) {
+				pageSwitch = false;
+				return e.target.previousElementSibling.style.display = 'none'
+			}
+			pageSwitch = true;
+			e.target.style.zIndex = 1;
+			return e.target.classList.add('turnPage');
+		}
+		if (page === 2) {
+			console.log(page)
+			page--;
+			if (pageSwitch) {
+				pageSwitch = false;
+				return e.target.style.display = 'none'
+			}
+			pageSwitch = true;
+			return e.target.style.display = 'none'
+		}
+	}
+	return <div className='book'>
+		<div className="page" onClick={e => flipBook(e)}>Cover</div>
+		<div className="page" onClick={e => flipBook(e)}>Page1</div>
+		<div className="page" onClick={e => flipBook(e)}>Page2</div>
+	</div>
 }
