@@ -25,7 +25,7 @@ export default function Recipes() {
     }, []);
     return (
         <>
-            <Book pages={recipes} />
+            <Book pages={recipes} filters={['yeet', 'whoot']} />
         </>
     )
 }

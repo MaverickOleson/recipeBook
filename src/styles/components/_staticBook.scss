@@ -1,0 +1,28 @@
+.staticBook {
+    aspect-ratio: 6 / 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    user-select: none;
+    h1{
+        font-size: 3rem;
+    }
+
+    @media screen and (orientation: landscape) {
+        height: 65%;
+    }
+
+    @media screen and (orientation: portrait) {
+        width: 93%;
+    }
+
+    .staticPage {
+        box-sizing: border-box;
+        display: none;
+        width: 50%;
+        height: 100%;
+        cursor: pointer;
+        overflow: auto;
+        box-shadow: 0 0 7px #000d;
+    }
+}

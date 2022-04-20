@@ -68,6 +68,11 @@ nav {
     background: white;
 }
 
-.book {
-    background: white;
+.staticPage{
+    border: 0.7rem double $pink;
+    color: $pink;
+    h1{
+        font-style: italic;
+        text-decoration: underline 2px;
+    }
 }
