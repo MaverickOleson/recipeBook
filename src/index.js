@@ -4,6 +4,7 @@ import './styles/main.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Recipes from './pages/Recipes';
+import Contact from './pages/Contact';
 import {
   BrowserRouter,
   Routes,
@@ -22,7 +23,7 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="/recipes" element={<Recipes />} />
     </Routes>
   </BrowserRouter>

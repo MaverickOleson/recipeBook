@@ -10,12 +10,15 @@ export default function Recipes() {
         const recipes = (await axios.get('https://myrecipesapi.herokuapp.com/')).data;
         for (const recipe in recipes) {
             recipePages.push(
-                <>
+                [<>
                     <h1>{recipe}</h1>
-                    <ol>
+                    <ul>
                         {recipes[recipe].ingredients.map((step, index) => { return <li key={index}>{step}</li> })}
+                    </ul>
+                    <ol>
+                        {recipes[recipe].instructions.map((step, index) => { return <li key={index}>{step}</li> })}
                     </ol>
-                </>
+                </>, recipes[recipe].types]
             );
         }
         setRecipes(recipePages);
@@ -25,7 +28,7 @@ export default function Recipes() {
     }, []);
     return (
         <>
-            <Book pages={recipes} filters={['yeet', 'whoot']} />
+            <Book pages={recipes} filters={['glutenFree', 'hot', 'cold', 'neutral']} />
         </>
     )
 }

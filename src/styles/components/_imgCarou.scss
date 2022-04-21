@@ -1,6 +1,7 @@
 .imgCarou {
     width: 100%;
     max-width: 800px;
+    min-width: 200px;
     aspect-ratio: 16 / 9;
     position: relative;
     background: white;
@@ -11,5 +12,7 @@
         position: absolute;
         right: 0;
         top: 0;
+        object-fit: contain;
+        object-position: center;
     }
 }
